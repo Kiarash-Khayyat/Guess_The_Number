@@ -34,6 +34,6 @@ while attempts > 0:
         status = "winning"
 
 if status == "winning":
-    print(f"You got it. The annswer was {number}.")
+    print(f"You got it. The answer was {number}.")
 elif status == "losing":
     print("You ran out of attempts, you lose.")
